@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /**
  * Бросайте фишки в столбики.
@@ -71,12 +73,13 @@ func main() {
 		var oppPreviousAction int
 		fmt.Scan(&oppPreviousAction)
 
-		// fmt.Fprintln(os.Stderr, "Debug messages...")
+		//fmt.Fprintln(os.Stderr, "Debug messages...")
 
 		// Выведите индекс столбца, чтобы поместить туда чип.
 		// Добавьте сообщение (после пробела) для отображения в средстве просмотра.
-		//fmt.Println("0")
+		fmt.Println("0")
 		//fmt.Println("0 debug text message")
 		//fmt.Println(STEAL)
+		//fmt.Printf("0 %s\n", oppPreviousAction)
 	}
 }
